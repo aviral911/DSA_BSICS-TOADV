@@ -1,4 +1,4 @@
-//checking pelindrome number;
+//checking palindrome number;
 import java.util.Scanner;
 
 public class pelindrome {
@@ -6,7 +6,7 @@ public class pelindrome {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-        int original = n;   // original number save kar liya
+        int original = n;
 
         int rev = 0;
 
