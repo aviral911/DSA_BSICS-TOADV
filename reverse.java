@@ -14,5 +14,3 @@ System.out.println(rev);
 sc.close();
     }
 }
-
-
