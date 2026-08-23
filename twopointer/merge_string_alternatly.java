@@ -16,6 +16,14 @@ public class merge_string_alternatly {
      i++;
      j++;   
  }
+ while (i<s1.length()) {
+    result=result+s1.charAt(i);
+    i++;
+ }
+  while (j<s2.length()) {
+    result=result+s2.charAt(j);
+    j++;
+ }
  System.out.print(result);
     }
 }

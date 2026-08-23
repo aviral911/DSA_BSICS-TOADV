@@ -115,5 +115,6 @@ if(frq[i]>0){
     System.out.println((char)i+""+frq[i]);
 }
         }
+        sc.close();
     }
 }
