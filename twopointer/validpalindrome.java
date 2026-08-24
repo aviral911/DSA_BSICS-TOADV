@@ -17,7 +17,6 @@ public class validpalindrome {
         }
         int l=0;
         int r= ns.length()-1;
-  boolean flag = false;
         while (l<r) {
   if(ns.charAt(l)!=ns.charAt(r)){
    System.out.println("false");
@@ -29,5 +28,6 @@ public class validpalindrome {
             
         }
         System.out.println("true");
+        sc.close();
     }
 }
