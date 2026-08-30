@@ -11,13 +11,17 @@ public class two_sum {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
+        // targetting value;
        int target = sc.nextInt(); 
+       //double loop
         for(int i=0;i<arr.length;i++){
             for(int j=i+1;j<arr.length;j++){
                 if(arr[i]+arr[j]==target){
                     System.out.println(i+" "+j);
                 }
-                
+                else{
+                    System.out.println("no");
+                }
             }
         }
     }

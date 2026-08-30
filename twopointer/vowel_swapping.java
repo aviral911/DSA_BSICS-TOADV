@@ -16,7 +16,6 @@ int r = ch.length-1;
             }
             else if("aeiouAEIOU".indexOf(ch[r])==-1){
                 r--;
-                
             }
             else{
                 char temp = ch[l];

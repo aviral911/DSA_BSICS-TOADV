@@ -14,14 +14,15 @@ public class Container_With_Most_Water {
         int left =0;
         int max=0;
         while(left<right){
-
+        // area finding
             int height = Math.min(arr[left], arr[right]);
-            int width =right-left;
+            int width = right - left;
             int area = height*width;
-        
+        //agar max < area
         if (area>max) {
             max = area;
         }
+        // left < right
         if(arr[left]<arr[right]){
             left++;
         }
@@ -30,5 +31,6 @@ public class Container_With_Most_Water {
         }
     }
     System.out.println(max);
+    sc.close();
     }
 }

@@ -14,15 +14,16 @@ public class rev {
         int l=0;
         int r =arr.length-1;
         while(l<r){
-            if(arr[l]!=arr[r]){
-                System.out.println("mat kar bhai nhi hoga ");
+                   if(arr[l]!=arr[r]){
+                System.out.println(" mat kar bhai nhi hoga ");
                 return;
-            }
+              }
             l=l+1;
             r=r-1;
-            
-
-        }
+   
+                 
+}
         System.out.println("ha bhai hai palindrome array");
+        sc.close();
     }
 }

@@ -10,20 +10,25 @@ public class merge_string_alternatly {
  String result="";
  int i=0;
  int j=0;
+ //loop me pahle s1 ki value fir s2 ki
+
  while (i<s1.length()&&j<s2.length()) {
     result = result + s1.charAt(i);
      result = result +s2.charAt(j); 
      i++;
      j++;   
  }
+ // extra s1 ki
  while (i<s1.length()) {
     result=result+s1.charAt(i);
     i++;
  }
+ // extra s2 ki
   while (j<s2.length()) {
     result=result+s2.charAt(j);
-    j++;
- }
+    j++; }
+    //print 
  System.out.print(result);
+ sc.close();
     }
 }
