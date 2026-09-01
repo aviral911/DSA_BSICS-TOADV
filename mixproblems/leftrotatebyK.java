@@ -14,6 +14,8 @@ public class leftrotatebyK {
         int k=sc.nextInt();
         int []temp= new int[n];
         // baad ke k
+        //temp me index lena hai
+        
         int index =0;
         for(int i=k;i<n;i++){
             temp[index]=arr[i];
