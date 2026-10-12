@@ -2,7 +2,7 @@
 
  package RECUURSION;
 
-class BASICS {
+class power {
     // bc
     static  int POWEROFtwo(int n ){
         if(n==0){
