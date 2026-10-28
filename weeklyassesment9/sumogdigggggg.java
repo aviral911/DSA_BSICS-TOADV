@@ -1,7 +1,5 @@
 package weeklyassesment9;
-
 import java.util.Scanner;
-
 public class sumogdigggggg {
     static int dig(int n){
         if(n==0){
